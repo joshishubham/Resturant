@@ -1,0 +1,69 @@
+<!-- Header incude -->
+<% include header%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Css/home.css">
+    </head>
+<body>
+    <div class="Bckimage" id="bck-Img">
+        <h1><b>We Provide The Best Food <br> At The Right Price. </b></h1>
+    </div>
+    <section>
+        <div" class="row">
+            <div class="col-sm-4">
+                <h1 class="text-center" style="font-family:Georgia, 'Times New Roman', Times, serif">About us</h1>
+                <p  class="text-center" style="font-family:'Courier New', Courier, monospace">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo distinctio, quasi ipsam, accusantium impedit dicta earum temporibus cum beatae nihil libero perferendis expedita doloribus qui dolorem nesciunt iste, consequatur soluta?</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="../logo/logo.jpg" alt="" srcset="" id="LogoImages">
+            </div>
+        </div>
+    </section>
+    <div class="parllex-scroll">
+        <h1 style="font-family:'Times New Roman', Times, serif"><b>Begin The Day With <br> Great Taste. </b></h1>
+        <a href="/menu" class="btn btn-success" id="OderOnline">Order now.</a>
+    </div>
+    <div class="container">
+      <h1 class="text-center" style="margin-left: 1%; font-family:'Courier New', Courier, monospace;">Reservation Table</h1>
+        <hr class="Reservation"><br>
+        <form action="">
+            <div class="col-sm-4">
+                <label for="Name">Name: </label>
+                    <input type="text" class="form-control" placeholder="Name *" name="name" id="" required>
+            </div>
+
+            <div class="col-sm-4">
+                <label for="Email">Email: </label>
+                    <input type="email" class="form-control" placeholder="Email *" name="email" id="" required>
+            </div>
+
+            <div class="col-sm-4">
+                <label for="Name">Mobile no: </label>
+                    <input type="text" class="form-control" placeholder="Mobile no *" name="mobile" id="" required>
+            </div>
+
+            <div class="col-sm-4">
+                <label for="Date">Reservation Date: </label>
+                    <input type="date" class="form-control" name="date" id="" required>
+            </div>
+            
+            <div class="col-sm-4">
+                <label for="Guest">No. of Guests: </label><br>
+                   <select name="" id="" class="form-control" required>
+                       <option value="Select">Select *</option>
+                       <option value="1">1 *</option>
+                       <option value="2">2 *</option>
+                       <option value="3">3 *</option>
+                       <option value="4">4 *</option>
+                       <option value="5">5 *</option>
+                       <option value="More than 5">More than 5 *</option>
+                   </select>
+            </div>
+            <button type="submit" class="btn btn-success" id="ReserveButton">Reserve</button>
+        </form>
+    </div>
+</body>
+<!-- Footer include -->
+<% include footer %>
+</html> 

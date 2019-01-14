@@ -1,0 +1,165 @@
+/* Header css */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header .navbar{
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    height: 63px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 8px 20px grey;
+}
+.nav>li>a:hover{
+    background-color: transparent;
+}
+.navbar-nav>li>a{
+    padding: 0%;
+    display: initial;
+    margin-left: 27px;
+    line-height: 85px;
+    background-color: transparent !important;
+}
+.navbar ul {
+    margin-left: 24%;
+}
+header #icon {
+    width: 43px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+header nav li a {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+header nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+.fa-bars{
+    display: none;
+}
+.active{
+    color: rgb(0, 217, 255) !important;  
+    text-decoration: none !important;
+}
+
+                                    /***********************
+                                    |      Media query     |
+                                    ***********************/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    #bars{
+        display: none;
+    }
+    .navbar-nav>li>a{
+        line-height: 50px;
+    }
+    .navbar ul {
+        margin-left: 85px;
+    }
+    .navbar-nav>li>a{
+        line-height: 54px;
+        margin-left: 15px;
+        display: block;
+        padding: 7px;
+    }
+    header #icon {
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #bars{
+        display: none;
+    }
+    .navbar-nav>li>a{
+        line-height: 0px;
+    }
+    .navbar ul {
+        margin-left: 30px;
+    }
+    .navbar-nav>li>a {
+        margin-left: 5px;
+        line-height: 71px;
+        display: block;
+        padding: 0px;
+    }
+    header #icon {
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    #bars{
+        display: block;
+        font-size: 30px;
+    }
+    header #icon{
+        width: 40px;
+        margin-left: 35px;
+    }
+    header .navbar{
+        position: sticky;
+    }
+    header nav{
+        height: 59px;
+    }
+    .navbar-collapse{
+        background-color: rgba(0,0,0,0.4);
+    }
+    .navbar-nav>li>a{
+        line-height: 14px;
+        color: white;
+        margin-left: -36%;
+        display: block;
+        padding: 7px;       
+    }
+    .nav>li>a:hover{
+        background-color: white;
+    }
+    header nav a{
+        text-align: center;
+    }
+}                                    
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #bars{
+        display: block;
+        font-size: 30px;
+    }
+    header .navbar{
+        position: sticky;
+    }
+    header #icon{
+        width: 40px;
+        margin-left: 35px;
+    }
+    header nav{
+        height: 59px;
+    }
+    .navbar-collapse{
+        background-color: rgba(0,0,0,0.4);
+    }
+    .navbar-nav>li>a{
+        line-height: 14px;
+        color: white;
+        margin-left: -36%;
+        display: block;
+        padding: 7px;       
+    }
+    .nav>li>a:hover{
+        background-color: white;
+    }
+    header nav a{
+        text-align: center;
+    }
+}

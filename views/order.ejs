@@ -1,0 +1,84 @@
+<!-- Header include -->
+<% include header %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./Css/order.css">
+</head>
+<body>
+    <div class="container" id="order">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Order No</th>
+                    <th>Date</th>
+                    <th >Subtotal</th>
+                    <th>See more</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>05/12/2018</td>
+                    <td><p class="fa fa-rupee"> 300</p></td>
+                    <td><a class="btn btn-success btn-sm" id="popup">See more</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>11/12/2018</td>
+                    <td><p class="fa fa-rupee"> 400</p></td>
+                    <td><a href="#" class="btn btn-success btn-sm">See more</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>20/12/2018</td>
+                    <td><p class="fa fa-rupee"> 800</p></td>
+                    <td><a href="#" class="btn btn-success btn-sm">See more</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="col-sm-8 popup">
+            <div class="col-sm-5 popup-page">
+            <span class="fa fa-close" title="Close"></span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Food item</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4</td>
+                            <td>momo</td>
+                            <td><p class="fa fa-rupee"> 300</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="col-xl-4" id="total">
+                    <ul>
+                        <li>Item total: </li><p class="fa fa-rupee total"> 300</p>
+                        <li>Delivery charges: </li><p class="fa fa-rupee total"> 30</p><hr>
+                        <li id="grand">Grand total: </li><p class="fa fa-rupee total"> 330</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#popup').click(function () {
+                $('.popup').css('display', 'block');
+                $('.popup-page').addClass('animated slideInRight');
+            });
+            $('.fa-close').click(function () {
+                $('.popup-page').removeClass('animated slideInRight');
+                $('.popup').css('display', 'none');
+            });
+        });
+    </script>
+</body>
+</html>
+<!-- Footer include -->
+<% include footer %>

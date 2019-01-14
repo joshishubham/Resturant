@@ -1,0 +1,123 @@
+/* Sign-up css */
+.jumbotron h1{
+    font-size: 30px;
+    font-family: fantasy;
+    color: white;
+}
+.jumbotron.text-center {
+    height: 109px;
+    background-color: #63b863;
+}
+#signup, #login{
+    width: 37%;
+}
+/* Login page css */
+.fa-google-plus {
+    width: 100%;
+    padding: 11px 7px;
+    font-size: 15px;
+    border: 2px solid #dd4b39;
+    background-color: white;
+}
+.fa-google-plus:hover{
+    color: white;
+    text-decoration: none;
+    padding: 11px 7px;
+    background-color: #dd4b39;
+}
+#facebook{
+    width: 100%;
+    padding: 11px 7px;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid #3b5998;
+}
+#facebook:hover{
+    background-color: #3b5998;
+    color: white;
+    text-decoration: none;
+    padding: 11px 7px;
+}
+
+                                                              /*************** 
+                                                              |  Media query |
+                                                              ***************/ 
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    #signup, #login{
+        width: auto;
+    }
+    /* login page media query */
+    .fa-google-plus{
+        width: 100%;
+        margin-left: auto;
+    }
+    #facebook{
+        width: 100%;
+        margin-left: auto;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    #signup, #login{
+        width: auto;
+    }
+    /* login page media query */
+    .fa-google-plus{
+        width: 100%;
+        margin-left: auto;
+    }
+    #facebook{
+        width: 100%;
+        margin-left: auto;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    #signup, #login{
+        width: auto;
+    }
+    /* login page media query */
+    .fa-google-plus{
+        width: 100%;
+        margin-left: auto;
+    }
+    #facebook{
+        width: 100%;
+        margin-left: auto;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    #signup, #login{
+        width: auto;
+    }
+    /* login page media query */
+    .fa-google-plus{
+        width: 100%;
+        margin-left: auto;
+    }
+    #facebook{
+        width: 100%;
+        margin-left: auto;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    #signup, #login{
+        width: auto;
+    }
+    /* login page media query */
+    .fa-google-plus{
+        width: 100%;
+        margin-left: auto;
+    }
+    #facebook{
+        width: 100%;
+        margin-left: auto;
+    }
+}
