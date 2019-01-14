@@ -66,4 +66,4 @@ app.get('/header', function(req, res){
     res.render('header.ejs')
 });
 
-app.listen(1222, console.log('http://localhost:1222/home'));
+app.listen(process.env.PORT || 1222, console.log('http://localhost:1222/home'));
