@@ -40,6 +40,7 @@ body{
     top: 33%;
     color: white;
     text-align: center;
+    font-family: cursive;
     position: relative;
 }
 #OderOnline{
@@ -66,8 +67,8 @@ body{
 @media (min-width: 1025px) and (max-width: 1280px) {
 
     .Bckimage h1{
-        color: black;        
-        font-size: 6rem;
+        color: whitesmoke;
+        font-size: 5rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -97,8 +98,8 @@ body{
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .Bckimage h1{
-        color: black;
-        font-size: 6rem;        
+        color: whitesmoke;
+        font-size: 5rem;        
     }
     .parllex-scroll {
         height: 274px;
@@ -128,8 +129,8 @@ body{
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
     .Bckimage h1{
-        color: black;
-        font-size: 6rem;
+        color: whitesmoke;
+        font-size: 5rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -159,8 +160,8 @@ body{
 @media (min-width: 481px) and (max-width: 767px) {
    
     .Bckimage h1{
-        color: black;
-        font-size: 6rem;
+        color: whitesmoke;
+        font-size: 5rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -189,8 +190,8 @@ body{
 @media (min-width: 320px) and (max-width: 480px) {
     
     .Bckimage h1{
-        color: black;
-        font-size: 6rem;
+        color: whitesmoke;
+        font-size: 5rem;
     }
     .parllex-scroll {
         height: 274px;
