@@ -66,8 +66,8 @@ body{
 @media (min-width: 1025px) and (max-width: 1280px) {
 
     .Bckimage h1{
-        color: black;
-        font-size: 3rem;
+        color: black;        
+        font-size: 6rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -98,7 +98,7 @@ body{
 
     .Bckimage h1{
         color: black;
-        font-size: 3rem;
+        font-size: 6rem;        
     }
     .parllex-scroll {
         height: 274px;
@@ -129,7 +129,7 @@ body{
 
     .Bckimage h1{
         color: black;
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -160,7 +160,7 @@ body{
    
     .Bckimage h1{
         color: black;
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .parllex-scroll {
         height: 274px;
@@ -190,7 +190,7 @@ body{
     
     .Bckimage h1{
         color: black;
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .parllex-scroll {
         height: 274px;
